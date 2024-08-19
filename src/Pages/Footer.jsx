@@ -62,8 +62,8 @@ const Footer = () => {
         <div class="sm:flex sm:items-center sm:justify-between">
           <div class="flex mt-4 justify-center sm:mt-0">
             <p className="text-[0.7rem] text-white opacity-70">
-              © {new Date().getFullYear()} Website Scieza One | Di Kelola Oleh
-              Siswa XI IPA 1
+              © {new Date().getFullYear()} Website EleventSix Gangs | Di Kelola
+              Oleh Siswa XI F6
             </p>
           </div>
         </div>
