@@ -25,7 +25,7 @@ const StrukturKelas = () => {
         <BorderStruktur
           Jabatan="Wali Kelas"
           Nama="EGI SETIYO PAMBUDI S.Pd"
-          Width="200px"
+          Width="150px"
         />
       </div>
       <div className="flex flex-col justify-center items-center">
@@ -85,13 +85,11 @@ const StrukturKelas = () => {
           data-aos-duration="1200"
         >
           <div className="relative left-[0.2rem]">
-            <a href="https://www.instagram.com/" target="_blank">
-              <BorderStruktur
-                Jabatan="Ketua Kelas"
-                Nama="Yesha Delima N."
-                Width="120px"
-              />
-            </a>
+            <BorderStruktur
+              Jabatan="Ketua Kelas"
+              Nama="Yesha Delima N."
+              Width="120px"
+            />
           </div>
           <img src="LineHorizontalPendek.svg" className="relative top-3" />
           <img
@@ -193,7 +191,7 @@ const StrukturKelas = () => {
           <img src="LineVertikal3.svg" alt="" />
         </div>
 
-        {/* Absensi dan Kebersihan */}
+        {/* Keamanan dan Kebersihan */}
         <div className="lg:flex">
           <img
             src="LineHorizontal.svg"
@@ -281,7 +279,7 @@ const StrukturKelas = () => {
           <img
             src="LineHorizontal.svg"
             alt=""
-            className="relative top-[-16.9rem]"
+            className="relative top-[-16.9rem] lg:hidden"
             data-aos="fade-up"
             data-aos-duration="600"
           />
@@ -296,14 +294,14 @@ const StrukturKelas = () => {
           <img
             src="LineHorizontal.svg"
             alt=""
-            className="relative top-[-16.9rem] hidden lg:flex"
+            className="relative top-[-16.9rem] hidden lg:flex lg:hidden "
             data-aos="fade-up"
             data-aos-duration="600"
           />
         </div>
 
         <div
-          className="flex gap-[10.6rem] lg:gap-[23.1rem] relative top-[-17.85rem]"
+          className="flex gap-[10.6rem] lg:gap-[23.1rem] relative top-[-17.85rem] lg:hidden"
           data-aos="fade-up"
           data-aos-duration="800"
         >
@@ -311,7 +309,7 @@ const StrukturKelas = () => {
           <img src="LineKananKiri.svg" alt="" />
         </div>
         <div
-          className="flex gap-[10.6rem] relative top-[-18.6rem] lg:gap-[23.1rem]"
+          className="flex gap-[10.6rem] relative top-[-18.6rem] lg:gap-[23.1rem] lg:hidden"
           data-aos="fade-up"
           data-aos-duration="1000"
         >
@@ -320,33 +318,25 @@ const StrukturKelas = () => {
         </div>
 
         <div
-          className=" flex gap-[5rem] relative top-[-18.9rem] lg:gap-[17.5rem]"
+          className=" flex gap-[5rem] relative top-[-18.9rem] lg:gap-[17.5rem] lg:hidden"
           data-aos="fade-up"
           data-aos-duration="1100"
         >
           <div className="flex-col">
-            <BorderStruktur
-              Jabatan="Olahraga"
-              Nama="Aldi Maulana N."
-              Width="120px"
-            />
-            <div className="py-[3%]"></div>
-            <BorderStruktur Jabatan="" Nama="Alif Aditia Adlu" Width="120px" />
+            <BorderStruktur Jabatan="Keamanan" Nama="Moh. Adi" Width="120px" />
           </div>
 
           <div className="flex-col">
             <BorderStruktur
-              Jabatan="Kerohanian"
-              Nama="Lina Sari"
+              Jabatan="Keamanan"
+              Nama="Selvy Novia R."
               Width="120px"
             />
-            <div className="py-[3%]"></div>
-            <BorderStruktur Jabatan="" Nama="Sahran Fadilah" Width="120px" />
           </div>
         </div>
 
         {/* peralatan */}
-        {/* <div className="lg:flex">
+        <div className="lg:flex">
           <img
             src="LineHorizontal.svg"
             alt=""
@@ -368,58 +358,67 @@ const StrukturKelas = () => {
             data-aos="fade-up"
             data-aos-duration="600"
           />
-        </div> */}
+        </div>
 
-        {/* <div
+        <div
           className="flex gap-[10.6rem] lg:gap-[35.6rem] relative top-[-17.85rem]"
           data-aos="fade-up"
           data-aos-duration="800"
         >
           <img src="LineKananKiri.svg" alt="" />
           <img src="LineKananKiri.svg" alt="" />
-        </div> */}
-        {/* <div
+        </div>
+        <div
           className="flex gap-[10.6rem] relative top-[-18.6rem] lg:gap-[35.6rem]"
           data-aos="fade-up"
           data-aos-duration="1000"
         >
           <img src="Circle.svg" alt="" />
           <img src="Circle.svg" alt="" />
-        </div> */}
+        </div>
 
-        {/* <div
+        <div
           className=" flex gap-[5rem] relative top-[-18.9rem] lg:gap-[29.7rem]"
           data-aos="fade-up"
           data-aos-duration="1100"
         >
           <div className="flex-col">
-            <BorderStruktur Jabatan="Peralatan" Nama="-----" Width="120px" />
+            <BorderStruktur
+              Jabatan="Olahraga"
+              Nama="Aldi Maulana N."
+              Width="120px"
+            />
           </div>
 
           <div className="flex-col">
-            <BorderStruktur Jabatan="Peralatan" Nama="-----" Width="120px" />
+            <BorderStruktur
+              Jabatan="Olahraga"
+              Nama="Alif Aditia Adlu"
+              Width="120px"
+            />
           </div>
-        </div> */}
+        </div>
 
-        {/* <div
-          className=" absolute bottom-[15%] "
+        <div
+          className=" absolute bottom-[15%] lg:bottom-[20%] "
           data-aos="fade-up"
           data-aos-duration="1000"
         >
           <div className="flex justify-center items-center flex-col">
-            <img src="LineVertikal3.svg" alt="" className="" />
-            <img
-              src="LineVertikal3.svg"
-              alt=""
-              className="lg:h-[120px] lg:-z-50"
-            />
+            <img src="LineVertikal3.svg" alt="" className="lg:h-3" />
+            <img src="LineVertikal3.svg" alt="" className="lg:-z-50" />
             <img src="LineVertikal3.svg" alt="" className="lg:hidden" />
             <img src="Circle.svg" alt="" className="relative top-[-0.7rem]" />
             <div className="relative bottom-3">
-              <BorderStruktur Jabatan="Peralatan" Nama="-----" Width="120px" />
+              <BorderStruktur
+                Jabatan="Peralatan"
+                Nama="Lina Sari"
+                Width="120px"
+              />
+              <BorderStruktur Jabatan="" Nama="Sahran Fadilah" Width="120px" />
             </div>
           </div>
-        </div> */}
+        </div>
 
         {/* Kesehatan */}
         {/* 	<div
