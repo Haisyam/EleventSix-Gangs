@@ -27,7 +27,7 @@ const Footer = () => {
                     class="hover:underline"
                     target="blank"
                   >
-                    @mhmdkhrzmi
+                    Kodingan Pelajar
                   </a>
                 </li>
               </ul>
